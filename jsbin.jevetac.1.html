@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by tyrion2016 (http://jsbin.com/jevetac/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Rosie robot">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/B4EB6EC2-3C45-A74A-8B3F-E191D330953B/main.js" charset="UTF-8"></script></head>
+<body>
+
+<script id="jsbin-javascript">
+function rosieTheFortuneTeller () {
+  var name=prompt("Hi, dear! My name is Rosie and I am an expert fortune teller. What is your name?");
+  var futureVariation=prompt("Yes, I have seen that you will come to me, " + name + " Now please, choose one from the following and type it in the box: turtle, rose, teacup, moon.");
+alert("Hmm... " + name + "Excellent choice. Let us see what your future holds.")
+  if (futureVariation=="turtle")
+    {
+      alert("Here is your fortune: Don’t panic. ");
+    }
+else if (futureVariation=="rose")
+  {
+    alert("Here is your fortune: You will find a thing. It may be important.");
+  }
+      else if (futureVariation=="teacup")
+        {
+          alert("Here is your fortune: The end is near, might as well have dessert. ");
+        }
+  else if (futureVariation=="moon")
+    {
+      alert("Here is your fortune: Look before you leap. Or wear a parachute.");
+    }
+  else
+    {
+      alert("I am sorry, " + name +  " I do not think I understand you correctly. Are you sure you typed in one of the offered possibilities?");
+    }
+};
+ rosieTheFortuneTeller ()
+</script>
+</body>
+</html>
